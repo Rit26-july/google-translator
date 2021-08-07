@@ -15,7 +15,7 @@ st.markdown(
     )
 image = Image.open('logo3.jpeg')
 
-st.image(image, width=200,align="center")
+st.image(image, width=200)
 
 st.title ("Converter")
 df = pd.read_csv('Language with code.csv')
