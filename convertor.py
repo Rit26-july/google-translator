@@ -2,7 +2,7 @@ import streamlit as st
 from textblob import TextBlob
 from PIL import Image
 import pandas as pd
-image = Image.open('logo2.jpeg')
+image = Image.open('logo3.jpeg')
 
 st.image(image, width=390)
 st.title ("Converter")
