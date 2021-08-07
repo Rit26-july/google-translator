@@ -2,9 +2,20 @@ import streamlit as st
 from textblob import TextBlob
 from PIL import Image
 import pandas as pd
+ st.markdown(
+        """
+        <style>
+        .reportview-container {
+            background: url("https://github.com/Rit26-july/google-translator/blob/main/207-2070906_white-unsplash.jpg")no-repeat center fixed;
+            background-size: cover;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 image = Image.open('logo3.jpeg')
 
-st.image(image, width=300,height=400)
+st.image(image, width=300)
 st.title ("Converter")
 df = pd.read_csv('Language with code.csv')
 atk = df.Languages
