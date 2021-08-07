@@ -6,7 +6,7 @@ st.markdown(
         """
         <style>
         .reportview-container {
-            background: url("https://www.wallpapertip.com/wmimgs/207-2070906_white-unsplash.jpg")no-repeat center fixed;
+            background: url("https://st2.depositphotos.com/2899505/7203/v/950/depositphotos_72030617-stock-illustration-wood-texture-web-page-background.jpg")no-repeat center fixed;
             background-size: cover;
         }
         </style>
