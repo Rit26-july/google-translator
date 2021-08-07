@@ -2,9 +2,9 @@ import streamlit as st
 from textblob import TextBlob
 from PIL import Image
 import pandas as pd
- image = Image.open('logo2.jpeg')
+image = Image.open('logo2.jpeg')
 
-    st.image(image, width=390)
+st.image(image, width=390)
 st.title ("Converter")
 df = pd.read_csv('Language with code.csv')
 atk = df.Languages
